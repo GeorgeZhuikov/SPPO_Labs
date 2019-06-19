@@ -1,0 +1,10 @@
+C:\Repos\SPPO_labs\SPPO_labs\bin\Debug\SPPO_labs.exe.config
+C:\Repos\SPPO_labs\SPPO_labs\bin\Debug\SPPO_labs.exe
+C:\Repos\SPPO_labs\SPPO_labs\bin\Debug\SPPO_labs.pdb
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.csprojResolveAssemblyReference.cache
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.Form.resources
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.Properties.Resources.resources
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.UCs.UCLab1.resources
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.csproj.GenerateResource.Cache
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.exe
+C:\Repos\SPPO_labs\SPPO_labs\obj\Debug\SPPO_labs.pdb
