@@ -45,8 +45,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Helper.cs" />
     <Compile Include="Classes\Lab1.cs" />
+    <Compile Include="Classes\Lab2.cs" />
     <Compile Include="Data\CalculateLab1Data.cs" />
+    <Compile Include="Data\CalculateLab2Data.cs" />
     <Compile Include="Data\SatelliteData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -62,6 +65,12 @@
     <Compile Include="UCs\UCLab1.Designer.cs">
       <DependentUpon>UCLab1.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCs\UCLab2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCs\UCLab2.Designer.cs">
+      <DependentUpon>UCLab2.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -76,6 +85,9 @@
     </Compile>
     <EmbeddedResource Include="UCs\UCLab1.resx">
       <DependentUpon>UCLab1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCs\UCLab2.resx">
+      <DependentUpon>UCLab2.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

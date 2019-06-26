@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SPPO_labs.Data
+﻿namespace SPPO_labs.Data
 {
     /// <summary>
     /// Расчётные параметры
     /// </summary>
-    class CalculateLab1Data
+    public class CalculateLab1Data
     {
         /// <summary>
         /// Точность расчёта уравнения Кеплера
@@ -64,7 +58,7 @@ namespace SPPO_labs.Data
         /// </summary>
         public double Mk { get; internal set; }
         /// <summary>
-        /// Уравнение Кеплера
+        /// Эксцентрическая аномалия
         /// </summary>
         public double Ek { get; internal set; }
         /// <summary>
@@ -75,6 +69,10 @@ namespace SPPO_labs.Data
         /// Косинус истинной аномалии
         /// </summary>
         public double CosYpsilon { get; internal set; }
+        /// <summary>
+        /// Предварительный аргумент широты
+        /// </summary>
+        public double U_ { get; internal set; }
         /// <summary>
         /// Исправленный аргумент широты
         /// </summary>

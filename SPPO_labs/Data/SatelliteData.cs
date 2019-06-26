@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SPPO_labs.Data
 {
     /// <summary>
     /// Извлеченные параметры из навигационных данных
     /// </summary>
-    class SatelliteData
+    public class SatelliteData
     {
         /// <summary>
         /// Номер спутника
@@ -72,7 +68,7 @@ namespace SPPO_labs.Data
         /// </summary>
         public double omega { get; internal set; }
         /// <summary>
-        /// Скорость изменения долготы восходящего узла из-за прецессии орбиты(рад / сек)
+        /// Скорость изменения долготы восходящего узла из-за прецессии орбиты (рад / сек)
         /// </summary>
         public double Omega_ { get; internal set; }
         /// <summary>
